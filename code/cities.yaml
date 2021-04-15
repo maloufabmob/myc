@@ -1,9 +1,9 @@
 paris: 
   meta: 
     population: 2,2 millions
-    density: 20 641 hab/km²
-    urban population: 10,8 millions
-    area: 105,4 km²
+    densité: 20 641 hab/km²
+    aglomération: 10,8 millions
+    superficie: 105,4 km²
   transport: 
     source: 
       url: http://temis.documentation.developpement-durable.gouv.fr/docs/Temis/0033/Temis-0033289/8724_2018.pdf#page=
