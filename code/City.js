@@ -32,6 +32,35 @@ export default ({}) => {
 					</li>
 				))}
 			</ul>
+			<ul
+				css={`
+					li {
+					}
+					li span {
+						display: inline-block;
+					}
+				`}
+			>
+				{Object.entries(data.transport.repartition).map(([key, value]) => (
+					<li key={key}>
+						<span css="text-transform: uppercase; font-size: 85%; color: grey; width: 10rem">
+							{key}
+						</span>{' '}
+						<span
+							css={`
+								width: ${(value /
+									Math.max(...Object.values(data.transport.repartition))) *
+								10}rem;
+								background: #a29bfe;
+								height: 1rem;
+								display: inline-block;
+								margin: 0 1rem;
+							`}
+						/>
+						{value}
+					</li>
+				))}
+			</ul>
 		</div>
 	)
 }
