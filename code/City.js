@@ -4,7 +4,8 @@ import cities from './cities.yaml'
 
 export default ({}) => {
 	const { city } = useParams()
-	const data = cities[city]
+	console.log(city, cities)
+	const data = cities[city.toLowerCase()]
 
 	return (
 		<div

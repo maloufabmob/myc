@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default () => {
 	return (
 		<div>
-			<p>SALUT</p>
+			<p>Empreinte climat des villes</p>
 			<ul>
 				<li>
 					<Link to="/Paris">Paris</Link>
