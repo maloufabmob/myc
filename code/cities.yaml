@@ -1,0 +1,23 @@
+paris: 
+  meta: 
+    population: 2,2 millions
+    density: 20 641 hab/km²
+    urban population: 10,8 millions
+    superficy: 105,4 km²
+  transport: 
+    source: 
+      url: http://temis.documentation.developpement-durable.gouv.fr/docs/Temis/0033/Temis-0033289/8724_2018.pdf#page=
+      name: Le bilan des déplacements en 2018 à Paris
+      note: Ne dispose pas d'informations sur les km parcourus des différents modes.
+    repartition:
+      voiture thermique: 200
+      voiture électrique: 10
+      bus: 40
+      métro: 500
+      tram: 70
+      vélo: 40
+      marche: 300
+
+
+
+  
