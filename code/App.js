@@ -43,6 +43,21 @@ const Container = () => (
 		<GlobalStyle />
 		<Router>
 			{false && <Nav />}
+			<div
+				css={`
+					img {
+						width: 5rem;
+					}
+					position: absolute;
+					left: 0.2rem;
+					color: white;
+					display: flex;
+					align-items: center;
+				`}
+			>
+				<img src={'/images/logo.svg'} />
+				MYC Data
+			</div>
 
 			<Switch>
 				<Route path="/à-propos">

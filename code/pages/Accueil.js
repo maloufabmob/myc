@@ -73,9 +73,9 @@ export default () => (
 				</header>
 				<Phone />
 			</div>
-			<p css="color: white; font-style: italic">
-				The platform is set to launch in 2021. Click the following button to
-				susbscribe to our newsletter.
+			<p css="color: white; font-style: italic; text-align: center">
+				The platform is set to launch in 2021. <br />
+				Click the following button to susbscribe to our newsletter.
 			</p>
 
 			<div
@@ -202,16 +202,16 @@ let Pourquoi = () => (
 				line-height: 1.4rem;
 			}
 			.illustration {
-				font-size: 3rem;
+				font-size: 120%;
 				display: block;
 				margin: 0 auto 1rem;
 				text-align: center;
 			}
 		`}
 	>
-		<h2>For cities first</h2>
+		<h2>Designed for cities</h2>
 		<span className="illustration">
-			📏 Measure and gather good quality data
+			<div>📏</div> Measure and gather good quality data
 		</span>
 		<p>
 			As a city official, you most probably have data about how your inhabitants
@@ -220,14 +220,16 @@ let Pourquoi = () => (
 			impact of your city's mobility, and help you gather the necessary
 			information if needed.
 		</p>
-		<span className="illustration">📢 Publish and visualize your data</span>{' '}
+		<span className="illustration">
+			<div>📢</div>Publish and visualize your data
+		</span>{' '}
 		<p>
 			The environmental challenge will be solved through collaboration. Publish
 			your mobility data following our simple standards, compare it as it is now
 			to national and international GHG targets.
 		</p>
 		<span className="illustration">
-			📢 Evaluate the potential of your projected shifts
+			<div>📉 </div>Evaluate the potential of your projected shifts
 		</span>{' '}
 		<p>
 			Start from your present data to design the future : see the impact of a
