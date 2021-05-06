@@ -142,6 +142,9 @@ let Phone = () => (
 				opacity: 0;
 				animation: turnOn 1s ease forwards;
 				animation-delay: 1.5s;
+				display: flex;
+				align-items: center;
+				justify-content: center
 
 			}
 			@keyframes turnOn {
@@ -158,16 +161,9 @@ let Phone = () => (
 		<div id="container">
 			<div id="shadows"></div>
 			<div id="screen">
-				{/* 
-          <h2>📌</h2>
-            */}
-				<small>
-					🚶🏿‍♀️ 🚲
-					<br />
-					🚗 🚌
-					<br />
-					🚅
-				</small>
+				<span>🚶🏿‍♀️ </span>
+				<span>🚲</span>
+				🚗 🚌 🚅
 			</div>
 			<div id="camera">
 				<div id="lens"></div>
