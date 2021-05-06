@@ -60,20 +60,3 @@ const Container = () => (
 )
 
 export default Container
-
-const TempForumDown = ({}) => (
-	<div css="max-width: 750px; margin: 0 auto; text-align: center; margin-top: 2rem">
-		<img
-			src="https://img.phonandroid.com/2021/03/incendie-ovh-e1615372715610.jpg"
-			css="width: 20rem"
-		/>
-		<p>forum.fabmob.io est tombé avec le datacenter OVH. </p>
-		<p>
-			Nous publierons ici des nouvelles quand nous aurons avancé sur sa remise
-			en ligne.
-		</p>
-		<p>
-			Il était hébergé à <a href="http://92.222.85.102">cette adresse IP</a>.
-		</p>
-	</div>
-)
