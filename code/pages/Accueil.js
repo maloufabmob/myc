@@ -75,8 +75,8 @@ export default () => (
 				<Phone />
 			</div>
 			<p css="color: white; font-style: italic; text-align: center">
-				The platform is set to launch in 2021. <br />
-				Click the following button to susbscribe to our newsletter.
+				The platform is set to launch in 2021 <br />
+				Subscribe to our newsletter ⬇️
 			</p>
 
 			<div
