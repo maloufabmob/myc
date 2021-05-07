@@ -10,7 +10,7 @@ export default () => (
 	<div>
 		<div
 			css={`
-				height: 90vh;
+				height: 100vh;
 				box-shadow: 0 12px 12px -10px rgba(48, 41, 41, 0.1);
 				background: linear-gradient(90deg, #9e2886 -100%, #1bb9d9);
 				display: flex;
@@ -52,6 +52,7 @@ export default () => (
 					}
 
 					@media (max-width: 800px) {
+						margin-top: 4rem;
 						width: 100%;
 						h1 {
 							font-size: 150%;
@@ -210,22 +211,30 @@ let Pourquoi = () => (
 				margin: 0 auto 1rem;
 				text-align: center;
 			}
+			img {
+				max-height: 15rem;
+				max-width: 100%;
+			}
+			display: flex;
+			flex-direction: column;
+			align-items: center;
 		`}
 	>
 		<h2>Designed for cities</h2>
 		<span className="illustration">
 			<div>📏</div> Measure and gather good quality data
 		</span>
+		<img src="/images/spreadsheet-capture.png" />
 		<p>
 			As a city official, you most probably have data about how your inhabitants
 			move around. It often is partial and not up to date, but it's a good
 			start. First, we help you get the basic info needed to compute the climate
-			impact of your city's mobility, and help you gather the necessary
-			information if needed.
+			impact of your city's mobility, and help you fill the blanks if needed.
 		</p>
 		<span className="illustration">
 			<div>📢</div>Publish and visualize your data
 		</span>{' '}
+		<img src="/images/gitlab-capture.png" />
 		<p>
 			The environmental challenge will be solved through collaboration. Publish
 			your mobility data following our simple standards, compare it as it is now
@@ -234,6 +243,7 @@ let Pourquoi = () => (
 		<span className="illustration">
 			<div>📉 </div>Evaluate the potential of your projected shifts
 		</span>{' '}
+		<img src="/images/mission-climat-capture.png" />
 		<p>
 			Start from your present data to design the future : see the impact of a
 			new Bus rapid transit, combined to a financial incentive to carpool.
