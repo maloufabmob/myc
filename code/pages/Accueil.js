@@ -1,4 +1,10 @@
 import { Route, Switch } from 'react-router'
+import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl'
+
+const Map = ReactMapboxGl({
+	accessToken:
+		'pk.eyJ1IjoiZmFicmljOCIsImEiOiJjaWc5aTV1ZzUwMDJwdzJrb2w0dXRmc2d0In0.p6GGlfyV-WksaDV_KdN27A',
+})
 
 export default () => (
 	<div>
@@ -141,7 +147,7 @@ let Phone = () => (
 			#screen {
 				opacity: 0;
 				animation: turnOn 1s ease forwards;
-				animation-delay: 1.5s;
+				animation-delay: 1s;
 				display: flex;
 				align-items: center;
 				justify-content: center
@@ -161,9 +167,10 @@ let Phone = () => (
 		<div id="container">
 			<div id="shadows"></div>
 			<div id="screen">
-				<span>🚶🏿‍♀️ </span>
-				<span>🚲</span>
-				🚗 🚌 🚅
+				<img
+					src="/images/capture-carte-dt4a.png"
+					css="width: 400px; height: 400px"
+				/>
 			</div>
 			<div id="camera">
 				<div id="lens"></div>
