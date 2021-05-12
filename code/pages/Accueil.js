@@ -69,7 +69,7 @@ export default () => (
 					<h1>Explore how cities move and tackle climate change</h1>
 					<p>
 						We collect and visualize public data about how inhabitants move, and
-						help cities design and reach their climate goals.
+						help cities design and reach their mobility climate goals.
 					</p>
 				</header>
 				<Phone />
