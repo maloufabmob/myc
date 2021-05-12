@@ -104,6 +104,7 @@ export default () => (
 			</div>
 		</div>
 		<Pourquoi />
+		<About />
 	</div>
 )
 
@@ -242,5 +243,46 @@ let Pourquoi = () => (
 			Start from your present data to design the future : see the impact of a
 			new Bus rapid transit, combined to a financial incentive to carpool.
 		</p>
+	</div>
+)
+
+const About = ({}) => (
+	<div
+		id="quoi"
+		css={`
+			padding: 2rem 1rem;
+			background: linear-gradient(90deg, #9e2886 -100%, #1bb9d9);
+			section {
+				max-width: 40rem;
+				margin: 0 auto;
+			}
+			ul {
+				display: flex;
+				justify-content: space-evenly;
+				align-items: center;
+			}
+		`}
+	>
+		{' '}
+		<section>
+			<h2>About</h2>
+			<ul>
+				<li>
+					<a href="https://www.mobiliseyourcity.net">
+						<img src="https://www.mobiliseyourcity.net/themes/custom/mobilise_your_city_theme/img/logo.png" />
+					</a>
+				</li>
+				<li>
+					<a href="https://lafabriquedesmobilites.fr">
+						<img src="https://lafabriquedesmobilites.fr/images/logo fabmob sans texte.svg" />
+					</a>
+				</li>
+				<li>
+					<a href="https://afd.fr">
+						<img src="https://www.afd.fr/sites/afd/files/logo_0.png" />
+					</a>
+				</li>
+			</ul>
+		</section>
 	</div>
 )
