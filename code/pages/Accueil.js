@@ -182,7 +182,7 @@ let Pourquoi = () => (
 	<div
 		id="quoi"
 		css={`
-			margin: 0 auto;
+			margin: 0 auto 2rem;
 			max-width: 40rem;
 			padding: 0.3rem 1rem;
 			ul {
@@ -206,6 +206,11 @@ let Pourquoi = () => (
 				margin: 0 auto 1rem;
 				text-align: center;
 			}
+			.illustration > div {
+				font-size: 150%;
+				margin: 1rem;
+			}
+
 			img {
 				max-height: 15rem;
 				max-width: 100%;
@@ -213,6 +218,9 @@ let Pourquoi = () => (
 			display: flex;
 			flex-direction: column;
 			align-items: center;
+			> p {
+				margin-bottom: 2rem;
+			}
 		`}
 	>
 		<h2>Designed for cities</h2>
