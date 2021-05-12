@@ -76,7 +76,7 @@ export default () => (
 			</div>
 			<p css="color: white; font-style: italic; text-align: center">
 				The platform is set to launch in 2021 <br />
-				Subscribe to our newsletter ⬇️
+				Subscribe to be kept informed ⬇️
 			</p>
 
 			<div
@@ -100,7 +100,7 @@ export default () => (
 					}
 				`}
 			>
-				<a href="#quoi">Get involved ✉️</a>
+				<a href="#quoi">I'm interested ✉️</a>
 			</div>
 		</div>
 		<Pourquoi />
