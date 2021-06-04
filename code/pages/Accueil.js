@@ -80,7 +80,7 @@ export default () => (
 			</p>
 
 			<div
-				href="#quoi"
+				href="https://framalistes.org/sympa/subscribe/mobiliseyourcity_mrv_tool"
 				css={`
 					width: 100%;
 					a {
