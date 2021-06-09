@@ -80,7 +80,6 @@ export default () => (
 			</p>
 
 			<div
-				href="https://framalistes.org/sympa/subscribe/mobiliseyourcity_mrv_tool"
 				css={`
 					width: 100%;
 					a {
@@ -100,7 +99,8 @@ export default () => (
 					}
 				`}
 			>
-				<a href="#quoi">I'm interested ✉️</a>
+				<a 
+				href="https://framalistes.org/sympa/subscribe/mobiliseyourcity_mrv_tool">I'm interested ✉️</a>
 			</div>
 		</div>
 		<Pourquoi />
