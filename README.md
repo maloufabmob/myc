@@ -13,6 +13,9 @@ Il y a au moins 3 chapitres dans ce tableur :
 
 Evidemment, le tableur a l'intérêt de calculer sur la base de ces saisies, des aggrégats et indicateurs.
 
+
+Exemple basique de données pour une ville : https://github.com/fabmob/myc/blob/master/code/cities.yaml
+
 ## Objectif 
 
 Mettre en ligne sur une application Web cet outil de saisie.
